@@ -1,8 +1,7 @@
 /*jshint esversion: 6 */
 
 //start page with name field selected.
-const nameField = document.querySelector('#name');
-nameField.focus();
+$('input[name=user_name]').focus();
 
 /***JOB ROLE SECTION ******/
 
